@@ -1,0 +1,41 @@
+{
+  "name": "jsipfs-check",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node ./src/index.js",
+    "dev": "cross-env nodemon ./src/index.js",
+    "prod": "cross-env NODE_ENV=production pm2 start ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/logging-winston": "^4.0.1",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.2",
+    "dotenv-flow": "^3.2.0",
+    "echarts-for-react": "^3.0.1",
+    "express": "^4.17.1",
+    "express-validation": "^3.0.6",
+    "hashlib": "^1.0.1",
+    "helmet": "^4.2.0",
+    "http-status": "^1.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "method-override": "^3.0.0",
+    "morgan": "^1.10.0",
+    "react-adsense": "^0.1.0",
+    "react-router": "^5.2.0",
+    "redis": "^3.0.2",
+    "redis-status": "^1.0.3",
+    "sequelize": "^6.5.0",
+    "sqlite3": "^5.0.2",
+    "timeago-react": "^3.0.2",
+    "websocket": "^1.0.32",
+    "winston": "^3.3.3"
+  }
+}

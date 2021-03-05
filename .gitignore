@@ -1,0 +1,5 @@
+redis_monitor_nodejs/node_modules
+redis_monitor_nodejs/logs
+redis_monitor_nodejs/package-lock.json
+reactApp/example/my-app/node_modules
+reactApp/example/my-app/package-lock.json
